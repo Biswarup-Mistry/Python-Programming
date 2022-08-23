@@ -1,2 +1,4 @@
 # Python-Programming
-Learning about python
+Learning about python,
+New programmes to be uploaded periodically,
+Thank you.
