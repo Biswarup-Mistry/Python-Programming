@@ -56,10 +56,10 @@ plt.show()
 
 
 
-# In[43]:
+# In[48]:
 
 
-sns.scatterplot(x=data['ISI'], y=data['DMC'])
+sns.scatterplot(x=data['ISI'], y=data['DMC'],hue=data['temp'])
 sns.regplot(x=data['ISI'], y=data['DMC'])
 
 
