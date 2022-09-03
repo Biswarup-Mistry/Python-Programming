@@ -3,7 +3,7 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "19e7b6c7",
+   "id": "20bab459",
    "metadata": {},
    "outputs": [
     {
@@ -21,7 +21,7 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "0f4fcb83",
+   "id": "6099ce72",
    "metadata": {},
    "outputs": [
     {
@@ -46,15 +46,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "a553ef14",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "3f61cd93",
+   "id": "98964354",
    "metadata": {},
    "outputs": [],
    "source": []
