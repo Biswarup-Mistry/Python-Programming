@@ -1,0 +1,4 @@
+Mean of pixels
+https://stackoverflow.com/questions/35586206/how-to-get-an-average-pixel-value-of-a-gray-scale-image-in-python-using-pil-nump
+
+numpy.org
