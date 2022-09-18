@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 import matplotlib.pyplot as plt
@@ -9,7 +9,7 @@ from PIL import Image
 import numpy as np
 
 
-# In[2]:
+# In[3]:
 
 
 def matrixOfPixels(height,width):
@@ -27,7 +27,7 @@ def matrixOfPixels(height,width):
     #print('Genarating of pixel matrix is successfuullll.....')
 
 
-# In[3]:
+# In[6]:
 
 
 def getMean(height,width):
@@ -36,7 +36,7 @@ def getMean(height,width):
     j=0
     while i<height:
         while j<width:
-            total+=img.getpixel((i,j))[0]
+            total+=img.getpixel((i,j))
             j+=1
         j=0
         i+=1
@@ -46,13 +46,13 @@ def getMean(height,width):
     return(mean)
 
 
-# In[4]:
+# In[7]:
 
 
-img=Image.open(r'C:\Users\Biswarup Mistry\Downloads\512x512 PNG Landscape Texture - Sunrise Lake.jpg')
+img=Image.open(r'C:\Users\Biswarup Mistry\Downloads\cat128.jpg')
 px=img.load()
 plt.imshow(img, cmap=plt.cm.gray, interpolation='nearest')
-plt.title('512x512 PNG Landscape Texture - Sunrise Lake.jpg')
+plt.title('cat128.jpg')
 plt.show()
 matrix=[]
 width, height = img.size
@@ -61,14 +61,14 @@ mean=getMean(height,width)
 print('mean : ',mean)
 
 
-# In[5]:
+# In[9]:
 
 
-print(img.getpixel((510,6))[0])
-print(px[511,511])
+print(img.getpixel((105,6)))
+print(px[115,115])
 
 
-# In[14]:
+# In[10]:
 
 
 x = np.matrix(np.arange(height*width).reshape(height,width))
@@ -77,7 +77,7 @@ j=0
 while i<height:
     a=[]
     while j<width:
-        x[i,j]=img.getpixel((i,j))[0]
+        x[i,j]=img.getpixel((i,j))
         j+=1
     j=0
     i+=1

@@ -1,0 +1,8 @@
+Exploring Correlation in Python :
+https://www.geeksforgeeks.org/exploring-correlation-in-python/
+
+sdv of pix :
+https://kozodoi.me/python/deep%20learning/pytorch/tutorial/2021/03/08/image-mean-std.html
+
+statistics : 
+https://www.w3schools.com/statistics/statistics_standard_deviation.php
