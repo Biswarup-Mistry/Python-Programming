@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 import matplotlib.pyplot as plt
@@ -9,9 +9,10 @@ import numpy as np
 import pandas as pd
 from numpy import *
 import math
+import seaborn as sns
 
 
-# In[2]:
+# In[3]:
 
 
 data=pd.read_csv(r'E:\College_Notes\PG\Sem-3\DesignWork\DATA_sets\forestfires.csv')#'https://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv')
@@ -21,7 +22,7 @@ data.drop(['month','day'],inplace=True, axis=1)
 data.head(5)
 
 
-# In[13]:
+# In[4]:
 
 
 i=0
@@ -66,14 +67,14 @@ def pearson_corr(fi,fj):
     return pears_corr
 
 
-# In[14]:
+# In[5]:
 
 
 matrix=[]
 for row in data:
     a=[]
     for col in data:
-       a.append(pearson_corr(row,col))
+        a.append(pearson_corr(row,col))
     matrix.append(a)
 
 #R=len(arr)
@@ -84,7 +85,7 @@ for row in data:
 #    print() 
 
 
-# In[15]:
+# In[6]:
 
 
 #np.matrix=matrix
@@ -94,22 +95,29 @@ out_arr=np.vstack(matrix)
 print(out_arr)
 
 
-# In[16]:
+# In[7]:
 
 
 print(matrix[2][3])
 
 
-# In[17]:
+# In[8]:
 
 
 data.corr()
 
 
-# In[ ]:
+# In[10]:
 
 
+axis_corr = sns.heatmap(
+out_arr,
+vmin=-1, vmax=1, center=0,
+cmap=sns.diverging_palette(50, 500, n=500),
+square=True
+)
 
+plt.show()
 
 
 # In[ ]:
