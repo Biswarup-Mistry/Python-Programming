@@ -6,3 +6,13 @@ https://kozodoi.me/python/deep%20learning/pytorch/tutorial/2021/03/08/image-mean
 
 statistics : 
 https://www.w3schools.com/statistics/statistics_standard_deviation.php
+
+Image Entropy and it's Vid. Lect(s). :
+https://www.youtube.com/watch?v=WeYKlS-vBQI
+https://github.com/adfoucart/image-processing-notebooks/blob/main/V6%20-%20Entropy.ipynb
+https://towardsdatascience.com/image-processing-with-python-working-with-entropy-b05e9c84fc36
+https://www.hdm-stuttgart.de/~maucher/Python/MMCodecs/html/basicFunctions.html
+https://in.mathworks.com/matlabcentral/answers/707143-how-can-i-calculate-entropy-of-an-image-by-using-the-entropy-s-type
+
+Linear Regression :
+https://dcbaonline.com/linear-regression-calculator/
