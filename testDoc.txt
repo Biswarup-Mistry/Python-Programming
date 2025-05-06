@@ -1,0 +1,1 @@
+Just to configure and test the git after downloading in ubuntu new installation.
