@@ -9,6 +9,6 @@ public class main{
 
     // Method to print a message
     public void printMessage() {
-        System.out.println("Hello, World!");
+        System.out.println("Hello, World! from java ");
     }
 }
